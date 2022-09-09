@@ -43,7 +43,7 @@ class MesonetApiController extends Controller {
         try {
             $response = json_decode(Curl::Make()
                 ->GET
-                ->url(url('APP_URL'))   // what is this
+                ->url(url('APP_URL'))// what is this
                 ->params([
                     'token' => Setting::get('mesonet_api_token'),
                     'radius' => Setting::get('location_radius')
