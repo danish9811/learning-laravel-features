@@ -7,4 +7,5 @@ try to make this project amazing and cool
 build other new things
 
 __NOTE__
+
 `Phpstorm2021.2` is not supporting laravel 9 routes by install laravel idea plugin
