@@ -6,19 +6,19 @@ use Illuminate\Support\Facades\Route;
 
 
 // these routes can be made simpler
-
-Route::view('/', 'dashboard');
-Route::resource('/books', BookController::class);
-
-Route::get('/login', [PassportAuthController::class, 'showLoginForm'])->name('login');
-Route::get('/register', [PassportAuthController::class, 'showRegisterForm'])->name('register');
-
-Route::post('/login-submit', [PassportAuthController::class, 'passportAuthLoginSubmit']);
-Route::post('/register-submit', [PassportAuthController::class, 'passportAuthRegisterSubmit']);
-
-Route::get('/chart', [PassportAuthController::class, 'showApexChart'])
-    ->middleware('auth')
-    ->name('apex-chart');
+//
+//Route::view('/', 'dashboard');
+//Route::resource('/books', BookController::class);
+//
+//Route::get('/login', [PassportAuthController::class, 'showLoginForm'])->name('login');
+//Route::get('/register', [PassportAuthController::class, 'showRegisterForm'])->name('register');
+//
+//Route::post('/login-submit', [PassportAuthController::class, 'passportAuthLoginSubmit']);
+//Route::post('/register-submit', [PassportAuthController::class, 'passportAuthRegisterSubmit']);
+//
+//Route::get('/chart', [PassportAuthController::class, 'showApexChart'])
+//    ->middleware('auth')
+//    ->name('apex-chart');
 
 
 
