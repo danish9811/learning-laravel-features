@@ -31,7 +31,4 @@ Route::controller(PassportAuthController::class)->group(static function() {
     Route::get('/chart', 'showApexChart')->middleware('auth')->name('apex-chart');
 });
 
-
-
-
-// all of these routes can be converted to laravel 9 routes, if group of routes comes under single controller, you can combile them
+// now phpstorm 2021.2 is supporting laravel 9 routes by install laravel idea
