@@ -30,5 +30,3 @@ Route::controller(PassportAuthController::class)->group(static function() {
     Route::post('/register-submit', 'passportAuthRegisterSubmit');
     Route::get('/chart', 'showApexChart')->middleware('auth')->name('apex-chart');
 });
-
-// now phpstorm 2021.2 is supporting laravel 9 routes by install laravel idea
