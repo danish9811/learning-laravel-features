@@ -12,7 +12,7 @@ class SearchController extends Controller {
 
     public function autocomplete(Request $request) {
         $data = Item::select("name")
-            ->where("name", "LIKE", "%{$request->query}%")
+            ->where("name", "LIKE", "%{$request->query->get('name')}%")
             ->get();
 
         return response()->json($data);
