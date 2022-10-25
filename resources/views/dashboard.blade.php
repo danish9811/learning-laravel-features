@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Metronic - the world\'s #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes')
+@section('title', 'Metronic Themes')
 
 @section('page_name', 'Dashboard')
 

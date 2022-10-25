@@ -67,11 +67,9 @@ class PassportAuthController extends Controller {
                 "message" => "Password mismatch"
             ]);
         }
-
     }
 
     public function showApexChart() {
         return view('apexchart');
     }
-
 }

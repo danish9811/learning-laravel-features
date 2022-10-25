@@ -1,14 +1,14 @@
 @extends('layout.app')
 
-@section('title', 'chart')
+@section('title', 'Charts')
 
-@section('page_name', 'Chart')
+@section('page_name', 'Apex Chart')
 
 <!-- if the user login successfully, generate here his name -->
-@section('loginName', '')
+@section('loginName', 'Burhan Ameen')
 
 <!-- generate here his email -->
-@section('loginEmail', '')
+@section('loginEmail', 'burhan324234@yahoo.com')
 
 @section('main-container')
 
@@ -32,7 +32,7 @@
 @endsection
 
 @push('scripts')
-  
+
   <script src="{{ asset('js/apexcharts.js') }}"></script>
 
   <script>
