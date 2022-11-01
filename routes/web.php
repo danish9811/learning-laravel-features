@@ -4,6 +4,10 @@ use App\Http\Controllers\PassportAuthController;
 use App\Http\Controllers\SearchController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/', static function () {
+    return phpinfo();
+});
+
 Route::controller(PassportAuthController::class)->group(static function () {
     Route::get('/login', 'showLoginForm')->name('login');
     Route::get('/register', 'showRegisterForm')->name('register');
