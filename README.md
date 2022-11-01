@@ -8,7 +8,7 @@ build other new things
 
 __NOTE__
 
-> `Phpstorm2021.2` is not supporting laravel 9 routes by install laravel idea plugin
+> `Phpstorm2021.2` is now supporting laravel new routes by installing `Laravel IDEA` plugin
 
 > Learned about how autocomplete feature works and functionality behind it
 

@@ -15,7 +15,7 @@ return new class extends Migration {
             $table->id();
             $table->string('name', 30);
             $table->string('age', 30);
-            $table->string('job', 30);
+            $table->string('job', 60);
             $table->string('salary', 30);
             $table->timestamps();
         });
