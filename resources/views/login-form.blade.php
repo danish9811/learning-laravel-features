@@ -8,11 +8,9 @@
 
 @section('loginEmail', '')
 
+<!-- todo : import this js script into seperate js push -->
 @section('stylesheets')
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
-      integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
 @endsection
 
 @section('main-container')
@@ -29,7 +27,7 @@
               <div class="text-center mb-10">
                 <h1 class="text-dark mb-3">Sign In to Metronic</h1>
                 <div class="text-gray-400 fw-bold fs-4">New Here?
-                  <a href="{{ route('register') }}" class="link-primary fw-bolder">Create an Account</a>
+                  <a href="{{ route('register') }}" class="link-primary fw-bolder">Login your account</a>
                 </div>
               </div>
               <div class="fv-row mb-10">
